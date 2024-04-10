@@ -6,7 +6,7 @@
 
 //outra forma de se executar melhor para varais ações
 let listaDeNumerosSorteados = []; // criar uma lista utiliza simplesmente as chaves ao final da criação da variavel.
-let numeroLimite = 100;
+let numeroLimite = 1000;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
@@ -19,7 +19,7 @@ function exibirTextoNaTela (tag, texto){
 }
 function exibirMensagemInicial(){
 exibirTextoNaTela ("h1", "jogo Do Número Secreto");
-exibirTextoNaTela ("p", "Escolha um numero entre 1 a 100");
+exibirTextoNaTela ("p", "Escolha um numero entre 1 a 1000");
 }
 exibirMensagemInicial();
 
