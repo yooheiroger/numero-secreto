@@ -19,7 +19,11 @@ function exibirTextoNaTela (tag, texto){
 }
 function exibirMensagemInicial(){
 exibirTextoNaTela ("h1", "jogo Do Número Secreto");
+<<<<<<< HEAD
 exibirTextoNaTela ("p", "Informe um numero entre 1 a 500");
+=======
+exibirTextoNaTela ("p", "Escolha um numero entre 1 a 500");
+>>>>>>> ed889feede56c79b9803ca9e65a8901618d6cc6f
 }
 exibirMensagemInicial();
 
